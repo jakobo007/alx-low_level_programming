@@ -7,8 +7,7 @@
 *Return: always 0
 */
 int main()
-int i;
-int j;
+int i, j;
 {
 for (int i = 0; i <= 99; i++)
 {
