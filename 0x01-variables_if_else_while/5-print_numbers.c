@@ -2,7 +2,7 @@
 /*betty style doc for function main goes there */
 /**
 *main - Print lowercase alphabets
-*Return: always 0
+*Return: always (0)
 */
 int main()
 {
@@ -12,5 +12,5 @@ for (i = 0; i <= 9; i++)
 putchar(i + '0');
 }
 putchar('\n');
-return 0;  
+return (0);
 }
