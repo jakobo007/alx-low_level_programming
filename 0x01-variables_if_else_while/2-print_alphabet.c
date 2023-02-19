@@ -2,9 +2,9 @@
 /*betty style doc for function main goes there */
 /**
 *main - Print alphabets
-*Return: always 0
+*Return: always (0)
 */
-int main() 
+int main(void) 
 {
 int i;
 for (i = 97; i <= 122; i++)
@@ -12,5 +12,5 @@ for (i = 97; i <= 122; i++)
 putchar(i);
 }
 putchar('\n');
-return 0;
+return (0);
 }

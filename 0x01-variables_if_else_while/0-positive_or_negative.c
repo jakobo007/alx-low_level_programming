@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there
  * main - the first quiz
  *
- * Return: Always 0
+ * Return: Always (0)
 */
 int main(void)
 {
