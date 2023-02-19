@@ -6,9 +6,10 @@
 */
 int main()
 {
-for (i = 0; i < = 9; i++)
-{
-putchar(i + '0');
-}
+    int i;
+    for (i = 0; i < = 9; i++)
+    {
+        putchar(i + '0');
+    }
 return 0;
 }
