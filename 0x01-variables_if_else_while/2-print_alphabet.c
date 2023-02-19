@@ -4,9 +4,11 @@
 *main - Print alphabets
 *Return: always 0
 */
-int main() {
+int main() 
+{
 int i;
-for (i = 97; i <= 122; i++) {
+for (i = 97; i <= 122; i++)
+{
 putchar(i);
 }
 putchar('\n');
