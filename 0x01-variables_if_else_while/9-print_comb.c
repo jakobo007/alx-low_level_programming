@@ -15,7 +15,7 @@ putchar(j + '0');
 if (i != 9 || j != 9) 
 {
 putchar(',');
-putchar('  \n');           
+putchar(' ');           
 }
 }
 }
