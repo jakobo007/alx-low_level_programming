@@ -1,6 +1,6 @@
 #include <stdio.h>
-/**
- * main alphabets in UPPER and lowecase
+/*betty coding style*/
+/** main alphabets in UPPER and lowecase
  *Return: Always 0
 */
 int main(){
