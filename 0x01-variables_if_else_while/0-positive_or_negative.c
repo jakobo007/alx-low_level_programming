@@ -2,11 +2,10 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-
-/* betty style doc for function main goes there
- * main - the first quiz
- *
- * Return: Always (0)
+/*betty style doc for function main goes there */
+/**
+*main - Print lowercase alphabets
+*Return: always (0)
 */
 int main(void)
 {
