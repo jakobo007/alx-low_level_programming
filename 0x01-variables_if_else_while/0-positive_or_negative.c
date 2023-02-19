@@ -3,8 +3,7 @@
 /* more headers goes there */
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
-/* *
+/* betty style doc for function main goes there
 *main - the first quiz
 *
 *Return: Always 0
