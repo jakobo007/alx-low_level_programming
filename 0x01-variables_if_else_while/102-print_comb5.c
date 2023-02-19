@@ -8,6 +8,7 @@
 */
 int main()
 int i;
+int j;
 {
 for (int i = 0; i <= 99; i++)
 {
