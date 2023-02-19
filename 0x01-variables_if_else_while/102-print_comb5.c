@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /*betty style doc for function main goes there */
 /**
 *main - program that prints all possible combinations of two two-digit numbers range from 0 to 99.
 *Return: always 0
 */
-int main(void)
+int main()
 int i, j;
 {
 for (int i = 0; i <= 99; i++)
