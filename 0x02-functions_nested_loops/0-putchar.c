@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include MAIN_H
+#include main.h
 /*betty style doc for function main goes there */
 /**
 *main - print _putchar
