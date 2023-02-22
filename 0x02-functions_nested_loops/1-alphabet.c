@@ -2,6 +2,7 @@
 /*betty style doc for function main goes there */
 /**
 *main - print alphabets
+*@i: variable
 *Return: always (0)
 */
 void print_alphabet(void)
