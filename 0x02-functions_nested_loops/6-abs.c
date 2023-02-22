@@ -12,4 +12,5 @@ if ( a < 0)
 a = -(a);
 else if (a >= 0)
 a = a;
+return (0);
 }
