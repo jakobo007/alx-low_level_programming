@@ -6,11 +6,7 @@
  *
  * Return: Always 0.
  */
-int add(int, int)
+int add(int a, int b)
 {
-int a;
-int b;
-int y;
-y = a + b;
-return (y);
+return (a + b);
 }
