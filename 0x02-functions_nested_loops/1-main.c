@@ -1,9 +1,9 @@
 #include "main.h"
+/*betty style doc for function main goes there */
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+*main - print alphabet
+*Return: always (0)
+*/
 int main(void)
 {
 print_alphabet();
