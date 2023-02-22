@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * 10x - 
- *prints 10 times the alphabet, in lowercase, followed by a new line
+ * 10x -prints 10 times the alphabet, in lowercase, followed by a new line
+ * 
  * @c: parameter to be printed
  *
  * Return: 1 if it lowercase otherwise 0
