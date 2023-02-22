@@ -3,7 +3,8 @@
 
 /**
  * add - sum of 2 numbers
- *
+ *@a: function parameter
+ *@b: function parameter
  * Return: Always 0.
  */
 int add(int a, int b)

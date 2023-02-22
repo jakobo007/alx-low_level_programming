@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * void jack_bauer(void) - prints every minute of the day  
- * 
- * Return: Always (0).
- */
+* void jack_bauer(void) - prints every minute of the day
+*@i: function parameter
+*@x: function parameter
+* Return: Always (0).
+*/
 void jack_bauer(void)
 {
 int i, j;
