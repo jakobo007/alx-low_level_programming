@@ -1,18 +1,20 @@
 #include "main.h"
+/*betty style doc for function main goes there */
+/**
+*main - 10x alphabet
+*Return: always (0)
+*/
 void print_alphabet_x10(void)
 {
-int main() {
-    char c;
-    int i;
-    
-    for(i = 1; i <= 10; i++) {
-        
-        for(c = 'a'; c <= 'z'; c++) {
-            _putchar(c);
-        }
-        
-        _putchar('\n');
-    }
-    
-    return (0);
+char c;
+int i;  
+for(i = 1; i <= 10; i++)
+{        
+for(c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}        
+_putchar('\n');
+}    
+return (0);
 }
