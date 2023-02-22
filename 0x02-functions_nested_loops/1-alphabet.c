@@ -1,11 +1,9 @@
 #include "main.h"
+/*betty style doc for function main goes there */
 /**
- * _putchar - prints the alphabet, in lowercase
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
+*main - print alphabets
+*Return: always (0)
+*/
 void print_alphabet(void)
 {
 char i;
