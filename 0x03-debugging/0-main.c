@@ -1,14 +1,12 @@
 #include "main.h"
-#include <unistd.h>
-
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-void positive_or_negative(int i);
+* main - Test function for positive or negative
+* Return: 0
+*/
+int main(void)
 {
-	return (0);
+int i;
+i = 0;
+positive_or_negative(i);
+return (0);
 }
