@@ -5,9 +5,9 @@
  *@c: variable
  * Return: Always 0.
  */
-int _isupper(int c)
+int _isupper(int )
 {
-if ((c >= '0' && c <= '9'))
+if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
