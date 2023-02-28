@@ -2,7 +2,7 @@
 #include "2-strlen.c"
 
 /**
- * put2 - function declaration
+ * puts2 - function declaration
  * @str: string pointer
  * Return: void
  */
