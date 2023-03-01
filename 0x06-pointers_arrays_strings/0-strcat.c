@@ -3,7 +3,6 @@
  * *_strcat - check the code
  * @dest: pointer string
  * @src: pointer
- * @p: variable
  * Return: Void
  */
 char *_strcat(char *dest, char *src)
