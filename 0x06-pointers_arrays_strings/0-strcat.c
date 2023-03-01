@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * *_strcat - check the code
  * @dest: pointer string
@@ -6,6 +7,7 @@
  * @p: variable
  * Return: Void
  */
+
 char *_strcat(char *dest, char *src)
 {
     char *p = dest;  
