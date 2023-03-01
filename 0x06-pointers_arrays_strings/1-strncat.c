@@ -8,8 +8,8 @@
 */
 char *_strncat(char *dest, char *src, int n)
 {
-char dest[50] = "Hello, ";
-char src[] = "world!";
+dest[50] = "Hello, ";
+src[] = "world!";
 _strncat(dest, src, 5);
 printf("%s\n", dest);
 }
