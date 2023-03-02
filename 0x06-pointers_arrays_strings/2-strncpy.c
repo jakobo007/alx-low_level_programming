@@ -1,23 +1,23 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- *_strncpy - function
- *@dest: pointer string
- *@src: string
- *@i: variable
- *@n: variable
- * Return: Void
-*/
+ * _strncpy - function declaration
+ * @dest: second string
+ * @src: first string
+ * @n: number of times to copy
+ * Return: a string
+ */
 char *_strncpy(char *dest, char *src, int n)
 {
-int i;
-for (i = 0; i < n && src[i] != '\0'; i++)
-{
-dest[i] = src[i];
-}
-for ( ; i < n; i++)
-{
-dest[i] = '\0';
-}
-return (dest);
+	int index;
+
+	for (index = 0; index < n && src[index] != '\0'; index++)
+	{
+		dest[index] = src[index];
+	}
+	for (; index < n; index++)
+	{
+		dest[index] = '\0';
+	}
+	return (dest);
 }
