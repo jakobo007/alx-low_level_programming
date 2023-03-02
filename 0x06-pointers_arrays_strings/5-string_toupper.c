@@ -2,9 +2,6 @@
 /**
  *string_toupper - function
  *@str: pointer string
- *@ptr: string
- *@islower: variable
- *@toupper: variable
  * Return: Void
 */
 char *string_toupper(char *str)
