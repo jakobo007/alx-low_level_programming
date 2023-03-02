@@ -6,8 +6,6 @@
 */
 char *string_toupper(char *str)
 {
-int islower;
-int toupper;
 char *ptr = str;
 while (*ptr != '\0')
 {
