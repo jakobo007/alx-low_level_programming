@@ -1,22 +1,31 @@
 #include "main.h"
-
 /**
- * *_memset - function declaration
- * @s: pointer to constant
- * @b: constant
- * @n: number of bytes
- * Return: pointer
+ * _strncat - concatenate two strings
+ * using at most n bytes from src
+ * @dest: input value
+ * @src: input value
+ * @n: input value
+ *
+ * Return: dest
  */
-char *_memset(char *s, char b, unsigned int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	unsigned int index;
+	int i;
+	int j;
 
-	for (index = 0; n > 0; index++)
+
+	i = 0;
+	while (dest[i] != '\0')
 	{
-		s[index] = b;
-		n--;
+		i++;
 	}
-
-	return (s);
+	j = 0;
+	while (j < n && src[j] != '\0')
+	{
+	dest[i] = src[j];
+	i++;
+	j++;
+	}
+	dest[i] = '\0';
+	return (dest);
 }
-
