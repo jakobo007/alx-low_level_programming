@@ -10,8 +10,16 @@ int _strlen_recursion(char *s);
 int main(void)
 {
     _strlen_recursion("Corbin Coleman");
-    return 0;
 }
+
+/**
+ * _strlen_recursion - function definition
+ * @s: the string to measure
+ * Description: finds the length of a string
+ * using recursion
+ * Return: the string length
+ */
+
 
 int _strlen_recursion(char *s)
 {
