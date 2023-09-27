@@ -5,10 +5,15 @@
  * Return: string length
 */
 
+int _strlen_recursion(char *s);
+
+int main(void)
+{
+    _strlen_recursion("Corbin Coleman");
+}
 
 int _strlen_recursion(char *s)
 {
-    void _strlen_recursion("Corbin Coleman");
     int length = 0;
     if (*s)
     {
