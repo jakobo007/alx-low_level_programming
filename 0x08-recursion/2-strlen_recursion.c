@@ -8,7 +8,7 @@
 
 int _strlen_recursion(char *s)
 {
-    _strlen_recursion("Corbin Coleman");
+    void _strlen_recursion("Corbin Coleman");
     int length = 0;
     if (*s)
     {
