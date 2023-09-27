@@ -4,6 +4,7 @@
  * @s: string value
  * Return: string length
 */
+int _strlen_recursion(char *s);
 
 int main(void)
 {
