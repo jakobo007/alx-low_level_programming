@@ -30,3 +30,8 @@ int _sqrt_recursion(int n)
     }
     return (_raised_power(n, 0));
 }
+
+int _raised_power(int j, int k)
+{
+    return 0;
+}
