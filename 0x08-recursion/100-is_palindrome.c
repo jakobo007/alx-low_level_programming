@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  * empty_string - function to check string
- * @str: string value
+ * @s: string value
 */
 int empty_string(const char *x)
 {
