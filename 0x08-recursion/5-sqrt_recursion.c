@@ -5,7 +5,7 @@
  * @k: raise power value
  * Return: Square root
 */
-int raised_power(int j, int k);
+int _raised_power(int j, int k);
 {
     if (k * k == j)
     {
@@ -15,18 +15,18 @@ int raised_power(int j, int k);
     {
         return (-1);
     }
-    return (raised_power(j, k + 1));
+    return (_raised_power(j, k + 1));
 }
 /**
  * _sqrt_recursion - function
  * @n: value 
  * Return: Square root of the value
 */
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
     if (n < 0)
     {
         return (-1);
     }
-    return (raised_power(n, 0));
+    return (_raised_power(n, 0));
 }
