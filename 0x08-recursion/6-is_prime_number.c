@@ -15,7 +15,7 @@ else if (x == y)
 {
 return (1);
 }
-return (prime_calc(x , y + 1));
+return (prime_calc(x, y + 1));
 }
 /**
  * is_prime_number - function prototype
