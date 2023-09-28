@@ -5,7 +5,7 @@
  * @z: raise value
  *Return: sqaure root
 */
-int root(int y, int z);
+int root(int y, int z)
 {
     if (z * z == y)
     {
@@ -22,7 +22,7 @@ int root(int y, int z);
  * @n: input
  * Return: sqaure root
 */
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
     return (root(n, 0));
 }
