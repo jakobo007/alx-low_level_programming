@@ -33,5 +33,5 @@ int _sqrt_recursion(int n)
 
 int _raised_power(int j, int k)
 {
-    return 0;
+return 0;
 }
