@@ -15,7 +15,7 @@ int raised_power(int j, int k )
     {
         return (k);
     }
-    else if (b * b > 4)
+    else if (k * k > j)
     {
         return (-1);
     }
