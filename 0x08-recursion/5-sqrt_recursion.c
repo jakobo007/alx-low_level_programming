@@ -1,6 +1,4 @@
 #include "main.h"
-#include <math.h>
-
 /**
  * raised_power - function for natural sqaure root
  * @j: input value
