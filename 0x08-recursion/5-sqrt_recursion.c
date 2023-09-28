@@ -5,7 +5,7 @@
  * @k: raise power value
  * Return: Square root
 */
-int raised_power(int j, int k )
+int raised_power(int j, int k)
 {
     if (k * k == j)
     {
