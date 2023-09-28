@@ -7,7 +7,7 @@
 */
 
 
-int raised_power(int j, int k )
+int raised_power(int j, int k );
 {
     if (k * k == j)
     {
@@ -26,7 +26,7 @@ int raised_power(int j, int k )
  * Return: Square root of the value
 */
 
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int n);
 {
     if (n < 0)
     {
