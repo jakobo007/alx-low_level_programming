@@ -7,17 +7,16 @@
 */
 int prime_calc(int x, int y)
 {
-    if (x  <= 1 || (x != y && x % y == 0))
-    {
-        return (0);
-    }
-    else if (x == y)
-    {
-        return (1);
-    }
-    return (prime_calc(x , y + 1));
+if (x  <= 1 || (x != y && x % y == 0))
+{
+return (0);
 }
-
+else if (x == y)
+{
+return (1);
+}
+return (prime_calc(x , y + 1));
+}
 /**
  * is_prime_number - function prototype
  * @n: value
@@ -25,5 +24,5 @@ int prime_calc(int x, int y)
 */
 int is_prime_number(int n)
 {
-    return (prime_calc(n, 2));
+return (prime_calc(n, 2));
 }
