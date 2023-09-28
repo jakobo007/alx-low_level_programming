@@ -7,7 +7,7 @@
 */
 int prime_calc(int x, int y)
 {
-    if (x  <= 1 || (x != y && y == 0))
+    if (x  <= 1 || (x != y && x % y == 0))
     {
         return (0);
     }
