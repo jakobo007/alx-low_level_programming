@@ -17,13 +17,11 @@ int raised_power(int j, int k )
     }
     return (raised_power(j, k + 1));
 }
-
 /**
  * _sqrt_recursion - function
  * @n: value 
  * Return: Square root of the value
 */
-
 int _sqrt_recursion(int n)
 {
     if (n < 0)
