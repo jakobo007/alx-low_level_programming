@@ -8,7 +8,7 @@
  */
 int main(int argc __attribute__((unused)), char **argv __attribute__((unused)))
 {
-    if (argc != 3)
+    if (argc != 3, argc = 0)
     {
         printf("Error\n");
         return (1);
