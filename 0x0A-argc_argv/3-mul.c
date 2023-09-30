@@ -10,8 +10,6 @@ int main(int argc __attribute__((unused)), char **argv __attribute__((unused)))
 {
     int x;
     int y;
-    int times;
-    times = x * y;
     if (argc > 2)
     {
         printf("Error\n");
