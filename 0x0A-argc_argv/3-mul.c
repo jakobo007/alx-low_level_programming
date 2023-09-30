@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main- to print name
+ * main - to multiply
  * @argc: arguments
  * @argv: string
  * Return: (0)
