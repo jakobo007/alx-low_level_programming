@@ -9,8 +9,6 @@
  */
 int main(int argc __attribute__((unused)), char **argv __attribute__((unused)))
 {
-    int x;
-    int y;
     if (argc != 3)
     {
         printf("Error\n");
