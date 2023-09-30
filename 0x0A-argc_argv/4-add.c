@@ -7,7 +7,7 @@
  * @argv: string
  * Return: (0)
  */
-int main(int argc __attribute__((unused)), char **argv __attribute__((unused)))
+int main(int argc, char *argv[])
 {
     int i, j, add=0;
     for (i = 1; i < argc; i++)
@@ -23,5 +23,5 @@ int main(int argc __attribute__((unused)), char **argv __attribute__((unused)))
         add += atoi(argv[i]);
     }
     printf ("&d\n", add);
-    return (o);
+    return (0);
 }
