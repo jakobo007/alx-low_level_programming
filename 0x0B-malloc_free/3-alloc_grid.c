@@ -17,21 +17,22 @@ return (NULL);
 gridout = malloc(height * sizeof(int *));
 if (gridout == NULL)
 {
-return(NULL);
+free(gridout)
+return (NULL);
 }
 for (i = 0; i < height; i++)
 {
 gridout[i] = malloc(width * sizeof(int));
 if (gridout[i] == NULL)
 {
-for (i --; i >= 0; i--);
+for (i--; i >= 0; i--)
 free(gridout);
 free(gridout[i]);
 return (NULL);
 }
 }
-for (i =0; i < height; i++)
+for (i = 0; i < height; i++)
 for (j = 0; j < width; j++)
-gridout[i] [j] = 0;
+gridout[i][j] = 0;
 return (gridout);
 }
