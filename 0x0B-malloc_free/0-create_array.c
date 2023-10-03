@@ -4,7 +4,6 @@
  * create_array - function prototype
  * @size: input of array
  * @c: pointer of input
- * 
  * Return: pionter
 */
 char *create_array(unsigned int size, char c)
@@ -22,7 +21,7 @@ return (NULL);
 }
 for( k = 0; k < size; k++)
 {
-ptr[k] = c;
+    ptr[k] = c;
 }
 return (ptr);
 }
