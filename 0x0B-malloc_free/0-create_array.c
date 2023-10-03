@@ -21,7 +21,7 @@ return (NULL);
 }
 for (k = 0; k < size; k++)
 {
-    ptr[k] = c;
+ptr[k] = c;
 }
 return (ptr);
 }
