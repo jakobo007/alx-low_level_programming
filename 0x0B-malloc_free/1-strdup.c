@@ -3,7 +3,6 @@
 /**
  * _strdup - function prototype
  * @str: input
- * 
  * Return: memory pointer
 */
 char *_strdup(char *str)
