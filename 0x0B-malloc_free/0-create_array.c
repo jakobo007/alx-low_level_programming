@@ -20,7 +20,7 @@ if (ptr == NULL)
 {
 return (NULL);
 }
-for ( k = 0; k < size; k++)
+for( k = 0; k < size; k++)
 {
 ptr[k] = c;
 }
