@@ -15,7 +15,7 @@ if (s1 == NULL)
 x = 0;
 else
 {
-for (x = 0; s[x] != '\0'; x++)
+for (x = 0; s1[x] != '\0'; x++)
 ;
 }
 if (s2 == NULL)
