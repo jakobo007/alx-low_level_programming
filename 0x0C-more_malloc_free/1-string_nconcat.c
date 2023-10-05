@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
  * string_nconcat - function prototype
- * @s1:
- * @s2:
- * @n:
+ * @s1: pointer
+ * @s2: bytes of s1
+ * @n: value
  * Return: pointer
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -15,7 +15,7 @@ if (s1 == NULL)
 x = 0;
 else
 {
-for (x = 0; s1[x] != '\0'; x++)
+for (x = 0; s[x] != '\0'; x++)
 ;
 }
 if (s2 == NULL)
