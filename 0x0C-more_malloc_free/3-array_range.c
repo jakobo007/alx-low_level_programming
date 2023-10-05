@@ -4,7 +4,7 @@
  * array_range - function prototype
  * @min: value container minimum
  * @max: value container maximum
- * Return: NULL 
+ * Return: NULL
 */
 int *array_range(int min, int max)
 {
