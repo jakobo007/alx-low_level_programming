@@ -15,13 +15,15 @@ if (s1 == NULL)
 x = 0;
 else
 {
-for (x = 0; s1[x] != '\0'; x++);
+for (x = 0; s1[x] != '\0'; x++)
+;
 }
 if (s2 == NULL)
 y = 0;
 else
 {
-for (y = 0; s2[y] != '\0'; y++);
+for (y = 0; s2[y] != '\0'; y++)
+;
 }
 if (y > n)
 y = n;
