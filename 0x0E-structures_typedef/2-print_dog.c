@@ -3,10 +3,10 @@
 /**
  * print_dog - function
  * @d: pointer to struct
- * 
  * Return 
 */
-void print_dog(struct dog *d) {
+void print_dog(struct dog *d)
+{
 if (d == NULL)
 return;
 if (d->name == NULL)
