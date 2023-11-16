@@ -7,7 +7,6 @@
  * @h: the first node of the list
  * Return: All the elements in the list
 */
-
 size_t print_list(const list_t *h)
 {
 size_t counter = 0;
