@@ -2,12 +2,12 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
+
 /**
  * main - check the code
  * 
  * Return: Always 0.
-*/
-
+ */
 int main(void)
 {
     listint_t *head;
@@ -17,7 +17,7 @@ int main(void)
 
     head = &hello;
     new = malloc(sizeof(listint_t));
-    if (new = NULL)
+    if (new == NULL)
     {
         printf("Error\n");
         return (1);
@@ -26,7 +26,7 @@ int main(void)
     new->next = head;
     head = new;
     n = print_listint(head);
-    printf("-> %l elememnts\n", n);
+    printf("-> %lu elements\n", n);
     free(new);
     return (0);
 }
