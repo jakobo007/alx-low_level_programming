@@ -13,13 +13,9 @@ size_t print_listint(const listint_t *h)
     while(h == NULL)
     {
         printf("Error\n");
-        if (head == NULL)
-        {
-
-        } else {
         h = h->next;
         nodes++;
-        }
+    
     }
     return (nodes);
 }
