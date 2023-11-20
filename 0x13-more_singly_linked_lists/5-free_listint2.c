@@ -17,5 +17,5 @@ holder = counter;
 counter = counter->next;
 free(holder);
 }
-*head == NULL;
+*head = NULL;
 }

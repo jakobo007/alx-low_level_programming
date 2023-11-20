@@ -15,6 +15,8 @@ if (new_node_end == NULL)
 {
 return (NULL);
 }
+new_node_end->n = n;
+new_node_end->next = NULL;
 if (*head == NULL)
 {
 *head = new_node_end;
