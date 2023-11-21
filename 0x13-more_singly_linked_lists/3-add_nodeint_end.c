@@ -20,9 +20,11 @@ new_node_end->next = NULL;
 if (*head == NULL)
 {
 *head = new_node_end;
-} else {
+}
+else
+{
 listint_t *x = *head;
-while(x->next != NULL)
+while (x->next != NULL)
 {
 x = x->next;
 }
