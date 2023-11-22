@@ -26,7 +26,7 @@ add_node->next = *head;
 return (add_node);
 }
 current = *head;
-for(i = 0; i < idx - 1; i++)
+for (i = 0; i < idx - 1; i++)
 {
 if (current == NULL)
 {
