@@ -13,8 +13,7 @@ size_t nodes = 0;
 while(h == NULL)
 {
 printf("%d\n", h->n);
-h = h->next;
-nodes++; 
+nodes += print_listint(h->next);
 }
 return (nodes);
 }
