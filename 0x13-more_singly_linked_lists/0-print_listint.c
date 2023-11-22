@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "lists.h"
 /**
- * size_t print_listint(const listint_t *h) function that will print the elements insdie a list
+ * size_t print_listint - function to print a list
  * @h: first node of the list
  * Return: All the elements of the list
 */
