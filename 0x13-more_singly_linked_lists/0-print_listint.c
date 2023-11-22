@@ -13,7 +13,6 @@ size_t nodes = 0;
 while (h != NULL)
 {
 printf("%d\n", h->n);
-nodes = h;
 h = h->next;
 nodes++;
 }
