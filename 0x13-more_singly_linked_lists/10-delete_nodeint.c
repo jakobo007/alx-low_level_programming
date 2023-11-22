@@ -10,11 +10,11 @@
 */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
+listint_t *holder;
+listint_t *last;
 if (*head == NULL) {
     return (-1);
 }
-listint_t *holder;
-listint_t *last;
 unsigned int i;
 if (index == 0) {
 holder = *head;

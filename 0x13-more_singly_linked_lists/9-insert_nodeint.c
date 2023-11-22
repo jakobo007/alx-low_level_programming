@@ -21,7 +21,8 @@ add_node->next = *head;
 *head = add_node;
 return (add_node);
 }
-listint_t *current = *head;
+listint_t *current; 
+current = *head;
 unsigned int i = 0;
 for(i = 0; i < idx - 1;i++)
 {
