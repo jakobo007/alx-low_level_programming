@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "lists.h"
 /**
- * insert_nodeint_at_index - function that inserts a new node atha given position
+ * insert_nodeint_at_index - function that inserts a new node
  * @head: Double pointer to the head of the list
  * @idx: Position of the new node
  * @n: Value to be stored in the new node
@@ -24,9 +24,9 @@ if (idx == 0)
 add_node->next = *head;
 *head = add_node;
 return (add_node);
-} 
+}
 current = *head;
-for(i = 0; i < idx - 1;i++)
+for(i = 0; i < idx - 1; i++)
 {
 if (current == NULL)
 {
