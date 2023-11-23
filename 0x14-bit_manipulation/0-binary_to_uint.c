@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * binary_to_unit -  function to convert binary to unsigned
+ * binary_to_unit - function to convert binary to unsigned
  * @b: A pointer to a string of 0 and 1
  * Return: The converted number
 */
@@ -14,7 +14,7 @@ while (*b)
 {
 if (*b == '0' || *b == '1')
 {
-result = result *2 + (* b - '0');
+result = result * 2 + (*b - '0');
 }
 else
 {
