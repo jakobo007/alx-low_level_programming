@@ -1,5 +1,6 @@
 #include "main.h"
 #include <fcntl.h>
+#include <stddef.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <sys/stat.h>
