@@ -1,5 +1,5 @@
 #include <stddef.h>
-#include <sys/stat.h>
+#include <sys/types.h>
 #ifndef _MAIN_H_
 #define _MAIN_H_
 int append_text_to_file(const char *filename, char *text_content);
