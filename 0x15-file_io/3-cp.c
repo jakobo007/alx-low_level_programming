@@ -11,7 +11,7 @@
 void print_error_and_exit(int exit_code, const char *message, const char *arg);
 
 int main(int argc, char *argv[]) {
-    int fd_from, fd_to;
+    int *fd_from, *fd_to;
     ssize_t read_bytes, write_status;
     char buffer[BUFFER_SIZE];
 
