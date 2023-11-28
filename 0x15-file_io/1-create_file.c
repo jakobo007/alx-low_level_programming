@@ -17,7 +17,7 @@ int create_file(const char *filename, char *text_content);
  */
 int create_file(const char *filename, char *text_content) {
     int fd, write_status;
-    mode_t permissions = S_IRUSR | S_IWUSR;  // rw-------
+    mode_t permissions = S_IRUSR | S_IWUSR; 
 
     if (filename == NULL)
         return -1;
@@ -27,7 +27,7 @@ int create_file(const char *filename, char *text_content) {
         return -1;
 
     if (text_content != NULL) {
-        write_status = write(fd, text_content, _strlen(text_content));
+        write_status = write(fd, text_content, strlen(text_content));
         if (write_status == -1) {
             close(fd);
             return -1;
@@ -39,12 +39,12 @@ int create_file(const char *filename, char *text_content) {
 }
 
 /**
- * _strlen - Calculates the length of a string.
+ * strlen - Calculates the length of a string.
  * @str: The input string.
  *
  * Return: The length of the string.
  */
-size_t _strlen(const char *str) {
+size_t strlen(const char *str) {
     size_t length = 0;
     while (str[length] != '\0') {
         length++;
