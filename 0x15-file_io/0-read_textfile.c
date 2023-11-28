@@ -13,7 +13,7 @@ ssize_t read_textfile(const char *filename, size_t letters);
  * Return: The actual number of letters read and printed.
  *         0 if the file cannot be opened or read, or if write fails.
  */
-ssize_t read_textfile(const char *filename, size_t letters) {
+size_t read_textfile(const char *filename, size_t letters) {
 int fd;
 ssize_t read_count, write_count;
 char *buffer;
