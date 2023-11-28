@@ -3,14 +3,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include "main.h"
-
 ssize_t read_textfile(const char *filename, size_t letters);
-
 /**
  * read_textfile - Reads a text file and prints it to the POSIX standard output.
  * @filename: The name of the file to read.
  * @letters: The number of letters to read and print.
- *
  * Return: The actual number of letters read and printed.
  *         0 if the file cannot be opened or read, or if write fails.
  */
