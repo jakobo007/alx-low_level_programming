@@ -44,8 +44,8 @@ int create_file(const char *filename, char *text_content) {
  *
  * Return: The length of the string.
  */
-size_t strlen(const char *str) {
-    size_t length = 0;
+ssize_t strlen(const char *str) {
+    ssize_t length = 0;
     while (str[length] != '\0') {
         length++;
     }
