@@ -2,6 +2,7 @@
     "files.associations": {
         "stdio.h": "c",
         "string.h": "c",
-        "stddef.h": "c"
+        "stddef.h": "c",
+        "fcntl.h": "c"
     }
 }
