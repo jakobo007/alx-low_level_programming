@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * time_table - multiplication of 9
@@ -8,7 +9,6 @@ void times_table(void)
 {
 int i;
 for (i = 0; i <= 10; i++) {
-printf("%d x 9 = %d\n", i, i*9);]
+printf("%d x 9 = %d\n", i, i*9);
 }
-return i;
 }
