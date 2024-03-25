@@ -8,7 +8,7 @@
  * @idx: index of each node
  * @n: data in the list 
  * Return: address of the new node or NULL if it failed
- * */ 
+ */ 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 if (h == NULL || idx < 0)
@@ -37,7 +37,7 @@ return (newNode);
 }
 dlistint_t *current = *h;
 unsigned int count = 0;
-while(current != NULL && count < idx - 1)
+while (current != NULL && count < idx - 1)
 {
 current = current->next;
 count++;
