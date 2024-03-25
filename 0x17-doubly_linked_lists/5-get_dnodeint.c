@@ -18,7 +18,7 @@ index--;
 }
 if (current == NULL)
 {
-return NULL;
+return (NULL);
 }
-return current;
+return (current);
 }

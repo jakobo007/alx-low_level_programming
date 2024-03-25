@@ -16,7 +16,7 @@ dlistint_t *last_node = *head;
 new_node = malloc(sizeof(dlistint_t));
 if (new_node == NULL) {
 /* Allocation failed, return NULL */
-return NULL;
+return (NULL);
 }
 /* Set the value of the new node */
 new_node->n = n;
@@ -25,7 +25,7 @@ new_node->next = NULL;
 if (*head == NULL) {
 new_node->prev = NULL;
 *head = new_node;
-return new_node;
+return (new_node);
 }
 /* Traverse the list to find the last node */
 while (last_node->next != NULL) {
@@ -34,5 +34,5 @@ last_node = last_node->next;
 /* Link the new node to the last node */
 last_node->next = new_node;
 new_node->prev = last_node;
-return new_node;
+return (new_node);
 }

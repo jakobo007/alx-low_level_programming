@@ -15,7 +15,7 @@ new_node = malloc(sizeof(dlistint_t));
 if (new_node == NULL)
 {
 /* Allocation failed, return NULL */
-return NULL;
+return (NULL);
 }
 /* Set the value of the new node */
 new_node->n = n;
@@ -29,5 +29,5 @@ if (*head != NULL)
 }
 /* Update head pointer to point to the new node */
 *head = new_node;
-return new_node;
+return (new_node);
 }
