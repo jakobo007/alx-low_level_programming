@@ -15,7 +15,8 @@ if (h == NULL || idx < 0)
 {
 return (NULL);
 }
-dlistint_t *newNode = (dlistint_t *)malloc(sizeof(dlistint_t));
+dlistint_t *newNode;
+*newNode = (dlistint_t *)malloc(sizeof(dlistint_t));
 if (newNode == NULL)
 {
 return (NULL);
