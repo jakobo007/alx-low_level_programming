@@ -26,5 +26,5 @@ if (*head != NULL)
 }
 }
 free(current);
-return -1;
+return (-1);
 }
