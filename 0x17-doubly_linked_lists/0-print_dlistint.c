@@ -17,5 +17,5 @@ printf("%d\n", current->n);
 current = current->next;
 count++;
 }
-return count;
+return (count);
 }
