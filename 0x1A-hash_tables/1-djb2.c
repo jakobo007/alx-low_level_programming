@@ -1,6 +1,7 @@
 /**
  * unsigned long int hash_djb2 - a hash function
  * @str: - input
+ * Return: value
 */
 unsigned long int hash_djb2(const unsigned char *str)
 {
