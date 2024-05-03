@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * int hash_table_set - function that adds an element to the hash table
+ * hash_table_set - function that adds an element to the hash table
  * @ht: the hash table you want to add or update the key/value to
  * @key: the key, cannot be an empty string
  * @value: value associated with the key. Value must not be empty and must be duplicated
@@ -12,10 +12,10 @@
 */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value) {
 unsigned long int index = key_index((const unsigned char *)key, ht->size);
+hash_node_t *current = ht->array[index];
 hash_node_t *new_node = malloc(sizeof(hash_node_t));
 if (ht == NULL || key == NULL || *key == '\0')
 return (0);
-hash_node_t *current = ht->array[index];
 while (current != NULL) {
 if (strcmp(current->key, key) == 0) {
 free(current->value);

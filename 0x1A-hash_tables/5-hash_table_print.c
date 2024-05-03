@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * void hash_table_print - function that prints a hash table
+ * hash_table_print - function that prints a hash table
  * @ht: the hash table
  * Return: NULL if ht is empty
 */
