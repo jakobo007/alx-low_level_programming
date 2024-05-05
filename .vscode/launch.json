@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Users/Jakobo/JAKOBO/alx-low_level_programming/0x1A-hash_tables",
-      "program": "c:/Users/Jakobo/JAKOBO/alx-low_level_programming/0x1A-hash_tables/build/Debug/outDebug",
+      "program": "c:/Users/Jakobo/JAKOBO/alx-low_level_programming/0x1A-hash_tables/build/Release/outRelease",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
