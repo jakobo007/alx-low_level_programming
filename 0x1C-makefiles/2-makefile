@@ -1,0 +1,17 @@
+# compiler
+CC = gcc
+
+# source files
+SRC = main.c school.c
+
+# object files
+OBJ = main.o school.o
+
+# exe name
+NAME = school
+
+all:
+   &(NAME)
+
+&(NAME): &(OBJ):
+    &(CC) &(OBJ) -o &(NAME)

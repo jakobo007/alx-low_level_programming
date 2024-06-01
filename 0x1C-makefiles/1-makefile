@@ -1,0 +1,8 @@
+# source file
+SRC = main.c school.c
+
+# compiler
+CC = gcc
+
+all:
+   &(CC) &(SRC) -o school
