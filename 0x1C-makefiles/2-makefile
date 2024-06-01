@@ -1,17 +1,25 @@
-# compiler
+# Compiler
 CC = gcc
 
-# source files
+# Source files
 SRC = main.c school.c
 
-# object files
-OBJ = main.o school.o
+# Object files (pattern rule will generate these)
+OBJ = $(SRC:.c=.o)
 
-# exe name
+# Executable name
 NAME = school
 
-all:
-   &(NAME)
+# Rule to build everything
+all: $(NAME)
 
-&(NAME): &(OBJ):
-    &(CC) &(OBJ) -o &(NAME)
+# Rule to link object files to create the executable
+$(NAME): $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# Rule to compile source files into object files
+%.o: %.c
+	$(CC) -c -o $@ $<
+
+.PHONY: all
+
