@@ -10,6 +10,7 @@ OBJ = main.o school.o
 # exe name
 NAME = school
 
+
 all:
    &(NAME)
 
