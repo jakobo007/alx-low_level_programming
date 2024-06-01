@@ -1,18 +1,7 @@
-# compiler
 CC = gcc
-
-# source files
 SRC = main.c school.c
-
-# object files
-OBJ = main.o school.o
-
-# exe name
+OBJ = $(SRC:.c=.o)
 NAME = school
 
-
-all:
-   &(NAME)
-
-&(NAME): &(OBJ):
-    &(CC) &(OBJ) -o &(NAME)
+all: $(OBJ)
+    $(CC) $(OBJ) -o $(NAME)
